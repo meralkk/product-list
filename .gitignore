@@ -4,11 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/src/components/01/
-/src/components/04-styles/
-/src/components/05-clock1/
-/src/components/06-props-1/
-/src/components/08-clock2/
+
 
 # testing
 /coverage
