@@ -1,3 +1,3 @@
-# You can also experience the project live by clicking on the Vercel link.
-
+# Live Demo
+You can see the project live by clicking on the Vercel link.
 https://product-list-meralkk.vercel.app/
