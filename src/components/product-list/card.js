@@ -1,5 +1,5 @@
 import React from "react";
-import { FaStar, FaRegStar, FaRegStarHalf } from "react-icons/fa";
+import { FaStar, FaRegStar } from "react-icons/fa";
 import "./pcard.scss";
 import data from "./product.json";
 
@@ -8,15 +8,11 @@ const Card = (props) => {
 
   const renderStars = () => {
     const fullStars = Math.floor(rate);
-    const hasHalfStar = rate % 1 !== 0;
     const emptyStars = 5 - Math.ceil(rate);
-  
+
     const stars = Array(fullStars).fill(<FaStar className="star" />);
-    if (hasHalfStar) {
-      stars.push(<FaRegStarHalf className="star half" />);
-    }
     stars.push(...Array(emptyStars).fill(<FaRegStar className="star" />));
-  
+
     return stars;
   };
   
